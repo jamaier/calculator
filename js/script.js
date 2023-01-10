@@ -19,13 +19,15 @@ function mult(number1, number2) {
 const number1 = parseInt(prompt("Enter a number:"));
 const number2 = parseInt(prompt("Enter another number:"));
 
+window.confirm("Are you sure those are the numbers you want?")
+
 window.alert(
   "Your numbers were: " +
     number1 +
     " and " +
     number2 +
     ". " +
-    "The difference of your numbers =" +
+    "The difference of your numbers = " +
     subtract(number1, number2) +
     "."
 );
@@ -35,7 +37,7 @@ window.alert(
     " and " +
     number2 +
     ". " +
-    "The sum of your numbers =" +
+    "The sum of your numbers = " +
     add(number1, number2) +
     "."
 );
@@ -45,7 +47,7 @@ window.alert(
     " and " +
     number2 +
     ". " +
-    "The remainder of your numbers =" +
+    "The remainder of your numbers = " +
     div(number1, number2) +
     "."
 );
@@ -55,7 +57,7 @@ window.alert(
     " and " +
     number2 +
     ". " +
-    "The product of your numbers =" +
+    "The product of your numbers = " +
     mult(number1, number2) +
     "."
 );
